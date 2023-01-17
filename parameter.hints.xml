@@ -1,0 +1,28 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="TypeScript" />
+      <blacklist language="ECMAScript 6">
+        <added pattern="Object.hasOwnProperty(v)" />
+        <added pattern="Array.sort(compareFn)" />
+        <added pattern="NodeListOf.forEach(callbackfn,thisArg)" />
+      </blacklist>
+      <blacklist language="XML" />
+      <blacklist language="JavaScript">
+        <added pattern="NodeListOf.forEach(callbackfn,thisArg)" />
+      </blacklist>
+      <blacklist language="PHP">
+        <added pattern="\compact(varname,_)" />
+        <added pattern="\Meta.vars(name)" />
+        <added pattern="\PhpMailerLibrary.sendEmails(emails,subject,body)" />
+        <added pattern="\exec(command,output,return_var)" />
+        <added pattern="\Doctrine\Common\Persistence\ObjectManager.getRepository(className)" />
+        <added pattern="\Symfony\Component\HttpFoundation\ParameterBag.get(key,default)" />
+        <removed pattern="" />
+      </blacklist>
+      <blacklist language="YAML" />
+    </blacklists>
+    <option id="php.show.names.for.all.args" value="true" />
+    <option id="sql.show.column.names.in.select" value="true" />
+  </component>
+</application>

@@ -1,0 +1,33 @@
+<templateSet group="html/xml">
+  <template name="pp" value="&lt;? $SELECTION$ ?&gt;" description="php tags" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="r" value="&lt;?= $SELECTION$ ?&gt;" description="&lt;?= tags" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="pf" value="&lt;? if($SELECTION$): ?&gt;&#10;&lt;? endif; ?&gt;" description="php if block" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="fe" value="&lt;? foreach ($SELECTION$ as $item): ?&gt;&#10;&lt;? endforeach; ?&gt;" description="forech php" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

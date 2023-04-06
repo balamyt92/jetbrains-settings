@@ -1,0 +1,8 @@
+<templateSet group="Bash">
+  <template name="noformat" value="@formatter:off&#10;@formatter:on$END$" description="no formater merkers" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

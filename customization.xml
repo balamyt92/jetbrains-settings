@@ -1,0 +1,22 @@
+<application>
+  <component name="com.intellij.ide.ui.customization.CustomActionsSchema">
+    <group value="OpenInBrowserGroup" is_group="true" forse_popup="false" action_type="-1" position="7">
+      <path value="root" />
+      <path value="Main Menu" />
+      <path value="View" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="OpenInBrowserGroup" is_group="true" forse_popup="false" action_type="1" position="7">
+      <path value="root" />
+      <path value="Main Menu" />
+      <path value="View" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="MainMenu" is_group="true" forse_popup="true" action_type="1" position="21">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <action id="MainMenu" icon="jar:file:/opt/phpstorm/lib/app.jar!/actions/listFiles.svg" />
+  </component>
+</application>

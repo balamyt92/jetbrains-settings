@@ -1,0 +1,28 @@
+<templateSet group="PHP">
+  <template name="crumb" value="$crumbs_pages = [&#10;    [&#10;        'title' =&gt; $page-&gt;title,&#10;        'uri'   =&gt; self::getAppUrl(),&#10;    ],&#10;];&#10;&#10;$page-&gt;title = $VAR_KEY$-&gt;title;&#10;$END$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR_KEY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="pub" value="public function $NAME$($PARAMETERS$){&#10;    $END$&#10;}" description="public function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="meta" value="$page-&gt;title = $VAR_KEY$-&gt;title;&#10;&#10;if ($VAR_KEY$-&gt;meta_title) {&#10;    $page-&gt;meta_title = $VAR_KEY$-&gt;meta_title;&#10;}&#10;if ($VAR_KEY$-&gt;meta_keywords) {&#10;    $page-&gt;meta_keywords = $VAR_KEY$-&gt;meta_keywords;&#10;}&#10;if ($VAR_KEY$-&gt;meta_description) {&#10;    $page-&gt;meta_description = $VAR_KEY$-&gt;meta_description;&#10;}&#10;$END$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR_KEY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="nf" value="// @formatter:off&#10;// @formatter:on" description="no format comment for IDE" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,29 @@
+<application>
+  <component name="SonarLintGlobalSettings">
+    <option name="nodejsPath" value="$USER_HOME$/.local/share/nvm/v18.12.1/bin/node" />
+    <option name="rulesByKey">
+      <map>
+        <entry key="php:S103">
+          <value>
+            <Rule active="false" key="php:S103" />
+          </value>
+        </entry>
+        <entry key="php:S107">
+          <value>
+            <Rule active="false" key="php:S107" />
+          </value>
+        </entry>
+        <entry key="php:S1142">
+          <value>
+            <Rule active="false" key="php:S1142" />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <rules>
+      <Rule active="false" key="php:S103" />
+      <Rule active="false" key="php:S1142" />
+      <Rule active="false" key="php:S107" />
+    </rules>
+  </component>
+</application>

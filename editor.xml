@@ -37,6 +37,9 @@
   <component name="InlayHintsSettings">
     <option name="lastViewedProviderKeyId" value="parameter.hints.old" />
   </component>
+  <component name="PhpEditorOptions">
+    <option name="SHOW_CLASS_SEPARATORS" value="true" />
+  </component>
   <component name="TodoConfiguration">
     <pattern pattern="\btodo\b.*" />
     <pattern pattern="\bfixme\b.*" />

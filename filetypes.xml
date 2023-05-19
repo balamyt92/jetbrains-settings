@@ -5,6 +5,7 @@
       <mapping pattern="prepare-env" type="AUTO_DETECTED" />
       <mapping pattern="disable-pcov" type="AUTO_DETECTED" />
       <mapping pattern="docker-php-entrypoint" type="AUTO_DETECTED" />
+      <mapping pattern="bash_profile" type="AUTO_DETECTED" />
       <mapping pattern="enable-pcov" type="AUTO_DETECTED" />
       <mapping pattern="prepare-env1" type="AUTO_DETECTED" />
       <mapping ext="guzzlev7" type="PLAIN_TEXT" />

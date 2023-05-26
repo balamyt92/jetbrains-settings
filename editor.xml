@@ -7,6 +7,17 @@
   <component name="DaemonCodeAnalyzerSettings">
     <option name="NEXT_ERROR_ACTION_GOES_TO_ERRORS_FIRST" value="false" />
   </component>
+  <component name="DeclarativeInlayHintsSettings">
+    <option name="providerIdToEnabled">
+      <map>
+        <entry key="js.chain.hints" value="true" />
+        <entry key="js.type.hints" value="true" />
+        <entry key="ts.chain.hints" value="true" />
+        <entry key="ts.enum.hints" value="true" />
+        <entry key="ts.type.hints" value="true" />
+      </map>
+    </option>
+  </component>
   <component name="EditorSettings">
     <option name="languageBreadcrumbsMap">
       <map>
@@ -35,7 +46,7 @@
     <option name="IS_INDENT_GUIDES_SHOWN" value="false" />
   </component>
   <component name="InlayHintsSettings">
-    <option name="lastViewedProviderKeyId" value="parameter.hints.old" />
+    <option name="lastViewedProviderKeyId" value="" />
   </component>
   <component name="PhpEditorOptions">
     <option name="SHOW_CLASS_SEPARATORS" value="true" />

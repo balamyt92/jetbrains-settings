@@ -1,8 +1,4 @@
-<code_scheme name="Default (1)">
-  <option name="HTML_ATTRIBUTE_WRAP" value="4" />
-  <option name="HTML_ALIGN_TEXT" value="true" />
-  <option name="HTML_ELEMENTS_TO_INSERT_NEW_LINE_BEFORE" value="body,div,form,h1,h2,h3,a,img,p" />
-  <option name="HTML_INLINE_ELEMENTS" value="abbr,acronym,b,basefont,bdo,big,br,cite,cite,code,dfn,em,font,i,kbd,q,s,samp,span,strike,strong,sub,sup,tt,u,var" />
+<code_scheme name="Default (1)" version="173">
   <PHPCodeStyleSettings>
     <option name="ALIGN_KEY_VALUE_PAIRS" value="true" />
     <option name="COMMA_AFTER_LAST_ARRAY_ELEMENT" value="true" />

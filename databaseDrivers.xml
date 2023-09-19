@@ -7,5 +7,8 @@
     <driver id="postgresql">
       <artifact id="PostgreSQL" name="PostgreSQL" use="true" version="42.6.0" />
     </driver>
+    <driver id="redis">
+      <artifact id="Redis" name="Redis" use="true" version="1.4" />
+    </driver>
   </component>
 </application>

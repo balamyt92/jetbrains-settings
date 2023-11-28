@@ -4,7 +4,7 @@
     <property name="created">2023-04-06T18:20:07</property>
     <property name="ide">PhpStorm</property>
     <property name="ideVersion">2023.1.0.0</property>
-    <property name="modified">2023-04-17T11:53:11</property>
+    <property name="modified">2023-11-28T18:38:22</property>
     <property name="originalScheme">_@user_Solarized Light</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -32,7 +32,7 @@
     <option name="ANNOTATIONS_MERGED_COLOR" value="586e75" />
     <option name="CARET_COLOR" value="dc322f" />
     <option name="CARET_ROW_COLOR" value="eee8d5" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="e7f9d0" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="" />
     <option name="GUTTER_BACKGROUND" value="ffffff" />
     <option name="INDENT_GUIDE" value="eee8d5" />
     <option name="LINE_NUMBERS_COLOR" value="93a1a1" />
@@ -1048,6 +1048,9 @@
         <option name="FOREGROUND" value="2aa198" />
       </value>
     </option>
+    <option name="HTML_CODE">
+      <value />
+    </option>
     <option name="HTML_COMMENT">
       <value>
         <option name="FOREGROUND" value="93a1a1" />
@@ -1185,6 +1188,14 @@
       </value>
     </option>
     <option name="JSP_SCRIPTING_BACKGROUND">
+      <value />
+    </option>
+    <option name="KOTLIN_FUNCTION_LITERAL_BRACES_AND_ARROW">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="KOTLIN_LABEL">
       <value />
     </option>
     <option name="LABEL">
@@ -1469,7 +1480,8 @@
     </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="eee8d5" />
+        <option name="BACKGROUND" value="99ccbb" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="MESSAGE_ARGUMENT">

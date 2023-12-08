@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project Files" />
-    <option name="defaultScopeName" value="Project Files" />
-    <option name="SEARCH_SCOPE" value="Project Files" />
+    <option name="customScope" value="Project 'health-check-bundle'" />
+    <option name="defaultScopeName" value="Project 'health-check-bundle'" />
+    <option name="SEARCH_SCOPE" value="Project 'health-check-bundle'" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>

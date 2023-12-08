@@ -1,5 +1,6 @@
 <application>
   <component name="OverrideFileTypeManager">
+    <file url="file://$USER_HOME$/.kube/config" value="YAML" />
     <file url="file://$USER_HOME$/Downloads/amedvedev.conf" value="YAML" />
   </component>
 </application>

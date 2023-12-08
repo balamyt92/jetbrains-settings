@@ -1,6 +1,6 @@
 <application>
   <component name="LafManager">
-    <laf themeId="JetBrainsLightTheme" />
+    <laf themeId="ExperimentalLight" />
     <lafs-to-previous-schemes>
       <laf-to-scheme laf="IntelliJ Light" scheme="Solarized Light copy1" />
       <laf-to-scheme laf="JetBrainsLightTheme" scheme="Solarized Light copy1" />

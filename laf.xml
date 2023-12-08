@@ -2,6 +2,7 @@
   <component name="LafManager">
     <laf themeId="ExperimentalLight" />
     <lafs-to-previous-schemes>
+      <laf-to-scheme laf="ExperimentalLight" scheme="Solarized Light copy1" />
       <laf-to-scheme laf="IntelliJ Light" scheme="Solarized Light copy1" />
       <laf-to-scheme laf="JetBrainsLightTheme" scheme="Solarized Light copy1" />
     </lafs-to-previous-schemes>

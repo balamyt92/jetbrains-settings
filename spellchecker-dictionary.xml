@@ -4,6 +4,7 @@
       <w>cronjobs</w>
       <w>deleteable</w>
       <w>denormalization</w>
+      <w>denormalizer</w>
       <w>docdoc</w>
       <w>esia</w>
       <w>gedmo</w>

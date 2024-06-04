@@ -11,6 +11,7 @@
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping ext="example" type="PLAIN_TEXT" />
       <mapping ext="guzzlev7" type="PLAIN_TEXT" />
+      <mapping ext="p12" type="PLAIN_TEXT" />
       <mapping ext="sign" type="PLAIN_TEXT" />
       <removed_mapping ext="conf" approved="true" type="SmartyConfig" />
       <removed_mapping ext="csv" approved="true" type="CSV/TSV" />
